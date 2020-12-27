@@ -1,0 +1,117 @@
+.navbar-brand .logo {
+  width: 8rem;
+}
+
+.btn_inicio {
+  margin-right: 3rem;
+}
+
+.bg-principal {
+  z-index: 0;
+  position: absolute;
+  filter: brightness(40%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.nav-home {
+  z-index: 1;
+}
+
+.card-home {
+  position: relative;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.card-home h1 {
+  color: white;
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.1;
+  font-size: 3.125rem;
+}
+
+.card-home h5 {
+  color: white;
+  font-size: 1.625rem;
+  margin: 1rem auto;
+}
+
+.card-home p {
+  color: white;
+}
+
+.card-body button {
+  font-size: 1.625rem;
+  min-height: 60px;
+  text-transform: uppercase;
+  background-color: #e50914;
+  color: white;
+  border-top-left-radius: 2;
+  border-left: 1px solid #333;
+}
+
+.card-home p {
+  max-width: none;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+.anuncio {
+  background-color: black;
+  z-index: 2;
+
+  margin: 0 auto;
+
+  display: flex;
+  -webkit-box-align: center;
+
+  align-items: center;
+  -webkit-box-pack: justify;
+  position: absolute;
+  border-bottom: 8px solid #222;
+  padding: 50px 5%;
+  margin-bottom: 0;
+
+  justify-content: space-between;
+}
+
+.anuncio h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  margin: 0 0 0.4em;
+  color: #fff;
+
+  font-weight: 400;
+}
+
+.anuncio-text {
+  position: relative;
+  top: 10vh;
+}
+
+.anuncio p {
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: white;
+}
+
+.anuncio img {
+  max-width: 80%;
+
+  border: 0;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

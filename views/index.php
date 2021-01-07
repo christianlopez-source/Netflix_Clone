@@ -1,17 +1,16 @@
 <?php
-
+ include_once './conf.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <link rel="icon" type="image/ico" href="../public/img/favicon.ico" />
-    <link rel="stylesheet" href="../public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
-    <link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
+    <link rel="icon" type="image/ico" href="<?= host ?>public/img/favicon.ico" />
+    <link rel="stylesheet" href="<?= host ?>public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
+    <link rel="stylesheet" href="<?= host ?>public/css/estilos.css?v=<?php echo(rand()); ?>">
 
 </head>
 
@@ -19,7 +18,7 @@
     <?php include 'header/header.php';?>
 
 
-    <img src="../public/img/bg.jpg" class="img-fluid bg-principal" alt="Fondo">
+    <img src="<?= host ?>public/img/bg.jpg" class="img-fluid bg-principal" alt="Fondo">
 
     <div class="card text-center card-home">
         <div class="card-header">
@@ -56,7 +55,7 @@
 
             </div>
             <div class="col-md-6 ">
-                <img src="../public/img/tv.png" alt="...">
+                <img src="<?= host ?>public/img/tv.png" alt="...">
                 <video class="video_home" autoplay="" playsinline="" muted="" loop="">
                     <source
                         src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
@@ -76,7 +75,7 @@
         <div class=" row g-0 ">
             <div class="col-md-6">
 
-                <img class="imagen_mobil" src="../public/img/mobil.jpg" alt="...">
+                <img class="imagen_mobil" src="<?= host ?>public/img/mobil.jpg" alt="...">
             </div>
             <div class="col-md-6 ">
                 <div class="card-body anuncio-text">
@@ -107,7 +106,7 @@
 
             </div>
             <div class="col-md-6 ">
-                <img src="../public/img/mac.png" alt="...">
+                <img src="<?= host ?>public/img/mac.png" alt="...">
                 <video class="video_home_second" autoplay="" playsinline="" muted="" loop="">
                     <source
                         src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
@@ -288,7 +287,7 @@
     <?php include 'footer/footer.php';?>
 
 
-    <script src="../public/js/app.js"></script>
+    <script src="<?= host ?>public/js/app.js"></script>
 
 </body>
 

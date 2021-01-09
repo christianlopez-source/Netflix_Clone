@@ -1,5 +1,4 @@
 <footer>
-
     <div class="card mb-3 anuncio footer_home">
         <!--Anuncio 3-->
         <div class=" row footer_space container g-0">
@@ -7,6 +6,7 @@
                 <div class="card-body anuncio-text">
                     <p class="footer-top" id="footer_text">¿Preguntas? Llama al <a class="footer-top-a"
                             href="tel:+1 (408) 469-4467  (USA)">+1 (408) 469-4467 (USA)</a></p>
+<<<<<<< HEAD
                     <p class="card-text " id="footer_text">
                     <div class="row align-items-center footer_links ">
                         <div class="col ">
@@ -56,12 +56,12 @@
                     </select>
                     </br>
                     <p style="color:gray;font-size:0.846em;">Netflix Ecuador</p>
+=======
+                    <p class="card-text">Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin
+                        costo extra.</p>
+>>>>>>> f71bbf67d4285f8300bfb9df194c60201f4cf38e
                 </div>
-
             </div>
-
         </div>
-
-
     </div>
 </footer>

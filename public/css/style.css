@@ -1,0 +1,124 @@
+body{
+    background: url('../img/login_banner.jpg') no-repeat center top;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    /*background-size: cover;*/
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.login-box{
+    width: 50% !important;
+    height: auto;
+    background-color: #000000d4;
+    color: aliceblue;
+    top: 140px !important;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    /*opacity: .50;*/
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    position: absolute;
+    left: calc(50% - 50px);
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 22px;
+    text-align: center;
+    font-weight: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #e50914;
+    color: honeydew;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.login-box a:hover{
+ color: #143938;
+}
+
+.small{
+    font-size: 0.9rem !important;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: -14rem;
+    background:  #000000d4;
+}
+
+
+@media (min-width: 400px ) {
+    .login-box{
+        width: 80% !important;
+        top: 200px !important;
+    }
+    footer{
+        bottom: -28rem;
+    }
+  }
+
+  
+@media (max-width: 500px) {
+    .login-box{
+        width: 80% !important;
+        top: 240px !important;
+    }
+  }
+
+  @media (min-width: 1000px ) {
+    .login-box{
+        width: 50% !important;
+        top: 200px !important;
+    }
+    footer{
+        bottom: -16rem;
+    }
+  }

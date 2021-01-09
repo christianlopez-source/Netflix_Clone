@@ -1,5 +1,4 @@
 <?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +8,10 @@
     <title>Netflix</title>
     <link rel="icon" type="image/ico" href="../public/img/favicon.ico" />
     <link rel="stylesheet" href="../public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
-    <link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
+<link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
 </head>
 
 <body>

@@ -1,7 +1,5 @@
 <?php
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +10,9 @@
     <link rel="icon" type="image/ico" href="../public/img/favicon.ico" />
     <link rel="stylesheet" href="../public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
     <link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
@@ -71,7 +71,7 @@
     <!-- Segunda seccion-->
 
 
-    <div class="row card mb-3 anuncio">
+    <div class="card mb-3 anuncio">
         <!--Anuncio 2-->
         <div class=" row g-0 ">
             <div class="col-md-6">
@@ -100,7 +100,8 @@
             <div class="col-md-6">
                 <div class="card-body anuncio-text">
                     <h1 class="card-title">Disfruta donde quieras.</h1>
-                    <p class="card-text">Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin
+                    <p class="card-text anuncio3_text">Películas y series ilimitadas en tu teléfono,
+                        tablet, computadora y TV sin
                         costo extra.</p>
 
                 </div>
@@ -128,8 +129,8 @@
 
                 <h1 class="preguntas_frecuentes">Preguntas frecuentes</h1>
 
-                <div class="accordion accordion-flush accordion_home" id="accordionFlushExample">
-                    <div class="accordion-item">
+                <div class="accordion accordion-flush accordion_home " id="accordionFlushExample">
+                    <div class="accordion-item container ">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
@@ -137,8 +138,8 @@
                                 ¿Qué es Netflix?
                                 <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed"
                                     focusable="true">
-                                    <path
-                                        d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3
+                                         20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
                                     </path>
                                 </svg>
                             </button>
@@ -150,12 +151,12 @@
                                 dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                                 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.</div>
+                                proident. Ad vegan excepteur butcher vice lomo.
+
+                            </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item container">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
@@ -163,8 +164,8 @@
                                 ¿Cuánto cuesta Netflix?
                                 <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed"
                                     focusable="true">
-                                    <path
-                                        d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 
+                                        11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
                                     </path>
                                 </svg>
                             </button>
@@ -176,12 +177,11 @@
                                 dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                                 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.</div>
+                                proident. Ad vegan excepteur butcher vice lomo.
+                            </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item container">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseThree" aria-expanded="false"
@@ -189,8 +189,8 @@
                                 ¿Dónde puedo ver Netflix?
                                 <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed"
                                     focusable="true">
-                                    <path
-                                        d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5
+                                         10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
                                     </path>
                                 </svg>
                             </button>
@@ -202,12 +202,11 @@
                                 dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                                 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.</div>
+                                proident. Ad vegan excepteur butcher vice lomo.
+                            </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item container">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
@@ -215,8 +214,8 @@
                                 ¿Còmo cancelo?
                                 <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed"
                                     focusable="true">
-                                    <path
-                                        d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3
+                                         20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
                                     </path>
                                 </svg>
                             </button>
@@ -228,12 +227,11 @@
                                 dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                                 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.</div>
+                                proident. Ad vegan excepteur butcher vice lomo.
+                            </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item container">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseTwo" aria-expanded="false"
@@ -241,8 +239,8 @@
                                 ¿Què puedo ver en Netflix?
                                 <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed"
                                     focusable="true">
-                                    <path
-                                        d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 
+                                        20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
                                     </path>
                                 </svg>
                             </button>
@@ -254,9 +252,8 @@
                                 dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                                 Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                accusamus labore sustainable VHS.</div>
+                                proident. Ad vegan excepteur butcher vice lomo.
+                            </div>
                         </div>
                     </div>
 
@@ -267,7 +264,7 @@
                         tu
                         membresía de Netflix.</h6>
 
-                    <div class="input-group mb-3 input-home container">
+                    <div class="input-group input_home mb-3 input-home container">
                         <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
                             aria-describedby="basic-addon2">
                         <button type="submit" class="input-group-text " id="basic-addon2">Comienza ya</button>
@@ -289,7 +286,11 @@
 
 
     <script src="../public/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
 
 </body>
 
 </html>
+?>

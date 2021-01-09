@@ -216,3 +216,138 @@ color: white;
 }
 
 /*Footer*/
+
+footer{
+  padding: 0;
+    margin: 0;
+}
+
+#footer_text{
+  font-size: 1em!important;
+  color: gray !important;
+}
+
+.footer_links{
+  max-width: 1000px;
+ font-size: 0.846em; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 2rem;
+}
+
+.footer_space{
+  width: 80% !important;
+  padding-bottom: 25px;
+}
+
+.footer_align{
+  position: relative;
+  bottom: 55px !important;
+}
+
+.footer-top-a{
+color: gray !important;
+text-decoration: none;
+}
+
+.footer-top-a:hover{
+  text-decoration: underline;
+}
+.footer-top-a a{
+  color: gray !important;
+text-decoration: none;
+}
+
+.form-select{
+  background-color: transparent;
+  width: 15%;
+  color: white;
+
+}
+
+/*Responsive*/
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .accordion-item{
+    width: 100%;
+  }
+  .accordion_home{
+    width: 100%;
+  
+    
+  }
+.accordion-header button{
+font-size: 15px;
+}
+ 
+  .anuncio h1{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .anuncio{
+    margin-top: -4rem;
+  }
+ 
+.footer_home{
+  padding-bottom: 2px;
+  padding-top: 5px;
+
+}
+
+.form_home{
+  max-width: 450px;
+  margin: 0 auto;
+  font-weight: 400;
+  text-align: center;
+}
+.input_home{
+  display: inline !important;
+}
+.input_home input{
+  width: 100% !important;
+}
+
+.input_home button{
+  font-size: 0.925rem;
+    /* min-height: 60px; */
+    text-transform: uppercase;
+    background-color: #e50914;
+    color: white;
+    border-top-left-radius: 2;
+    border-left: 1px solid #333;
+    width: 50%;    /* margin-top: 15px; */
+    margin-left: 145px;
+    justify-content: center;
+    /* text-align: center; */
+     position: relative; 
+    left: 120px;
+    margin: 15px 0 0 0;
+}
+
+.form-select{
+  width: 25%;
+}
+
+.video_home_second{
+  width: 48%;
+  left: 50%;
+  top: 53%;
+}
+.anuncio-text{
+  text-align: center;
+  top: 0vh;
+}
+
+
+
+.video_home{
+  top: 61%;
+  width: 57%;
+  left: 50%;
+}
+
+.card-body p{
+  font-size: 1.25rem;
+}
+
+}

@@ -1,36 +1,24 @@
-<?php
-<<<<<<< HEAD
-=======
- include_once './conf.php';
-?>
-
->>>>>>> f71bbf67d4285f8300bfb9df194c60201f4cf38e
+<?php?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-<<<<<<< HEAD
     <link rel="icon" type="image/ico" href="../public/img/favicon.ico" />
     <link rel="stylesheet" href="../public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
-<link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-    crossorigin="anonymous" />
-=======
-    <link rel="icon" type="image/ico" href="<?= host ?>public/img/favicon.ico" />
-    <link rel="stylesheet" href="<?= host ?>public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
-    <link rel="stylesheet" href="<?= host ?>public/css/estilos.css?v=<?php echo(rand()); ?>">
-
->>>>>>> f71bbf67d4285f8300bfb9df194c60201f4cf38e
+    <link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
     <?php include 'header/header.php';?>
 
 
-    <img src="<?= host ?>public/img/bg.jpg" class="img-fluid bg-principal" alt="Fondo">
+    <img src="../public/img/bg.jpg" class="img-fluid bg-principal" alt="Fondo">
 
     <div class="card text-center card-home">
         <div class="card-header">
@@ -67,7 +55,7 @@
 
             </div>
             <div class="col-md-6 ">
-                <img src="<?= host ?>public/img/tv.png" alt="...">
+                <img src="../public/img/tv.png" alt="...">
                 <video class="video_home" autoplay="" playsinline="" muted="" loop="">
                     <source
                         src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
@@ -87,7 +75,7 @@
         <div class=" row g-0 ">
             <div class="col-md-6">
 
-                <img class="imagen_mobil" src="<?= host ?>public/img/mobil.jpg" alt="...">
+                <img class="imagen_mobil" src="../public/img/mobil.jpg" alt="...">
             </div>
             <div class="col-md-6 ">
                 <div class="card-body anuncio-text">
@@ -119,7 +107,7 @@
 
             </div>
             <div class="col-md-6 ">
-                <img src="<?= host ?>public/img/mac.png" alt="...">
+                <img src="../public/img/mac.png" alt="...">
                 <video class="video_home_second" autoplay="" playsinline="" muted="" loop="">
                     <source
                         src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
@@ -296,14 +284,10 @@
     <?php include 'footer/footer.php';?>
 
 
-<<<<<<< HEAD
     <script src="../public/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
-=======
-    <script src="<?= host ?>public/js/app.js"></script>
->>>>>>> f71bbf67d4285f8300bfb9df194c60201f4cf38e
 
 </body>
 

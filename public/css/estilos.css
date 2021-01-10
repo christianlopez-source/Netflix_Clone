@@ -129,6 +129,7 @@
   margin-right: auto;
   display: block;
 }
+
 /*Fin de seccion de video*/
 
 /*Estilos para el primer video del anuncio 1*/
@@ -144,6 +145,7 @@
   vertical-align: baseline;
   transform: translate(-50%, -50%);
 }
+
 /*Estilo del segundo video en la seccion 3 - anuncio 3*/
 .video_home_second {
   width: 25%;
@@ -167,13 +169,13 @@
 }
 
 /*Seccion acordion*/
-.accordion_home{
-  width: 800vh;
-    margin: 2em auto;
-    max-width: 815px;
+.accordion_home {
+ 
+  margin: 2em auto;
+  max-width: 815px;
 }
 
-.accordion_home button{
+.accordion_home button {
   padding: .8em 2.2em .8em 1.2em;
   margin-bottom: 1px;
   font-weight: 400;
@@ -187,79 +189,81 @@
   color: #fff;
   font-size: 1.625rem;
   list-style-type: none;
-    margin: 0 0 8px 0;
+  margin: 0 0 8px 0;
 }
-.accordion_home svg{
+
+.accordion_home svg {
   position: absolute;
-    right: 1em;
-    top: 50%;
-    transform: translateY(-50%) rotate(-45deg);
-  
-    height: 1em;
-    width: 1em;
-    fill: #fff;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+
+  height: 1em;
+  width: 1em;
+  fill: #fff;
 }
 
-.preguntas_frecuentes{
+.preguntas_frecuentes {
   font-size: 3.125rem;
-    line-height: 1.1;
-    margin-bottom: .5rem;
-    margin: 0 0 .4em;
-    text-align: center;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+  margin: 0 0 .4em;
+  text-align: center;
 }
 
-.form_home{
+.form_home {
   max-width: none;
   padding-bottom: 20px;
   font-size: 1.2rem;
-color: white;
+  color: white;
 }
 
 /*Footer*/
 
-footer{
+footer {
   padding: 0;
-    margin: 0;
+  margin: 0;
 }
 
-#footer_text{
-  font-size: 1em!important;
+#footer_text {
+  font-size: 1em !important;
   color: gray !important;
 }
 
-.footer_links{
+.footer_links {
   max-width: 1000px;
- font-size: 0.846em; 
+  font-size: 0.846em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   line-height: 2rem;
 }
 
-.footer_space{
+.footer_space {
   width: 80% !important;
   padding-bottom: 25px;
 }
 
-.footer_align{
+.footer_align {
   position: relative;
   bottom: 55px !important;
 }
 
-.footer-top-a{
-color: gray !important;
-text-decoration: none;
+.footer-top-a {
+  color: gray !important;
+  text-decoration: none;
 }
 
-.footer-top-a:hover{
+.footer-top-a:hover {
   text-decoration: underline;
 }
-.footer-top-a a{
+
+.footer-top-a a {
   color: gray !important;
-text-decoration: none;
+  text-decoration: none;
 }
 
-.form-select{
+.form-select {
   background-color: transparent;
   width: 15%;
   color: white;
@@ -267,87 +271,368 @@ text-decoration: none;
 }
 
 /*Responsive*/
-@media screen and (min-width: 700px) and (max-width: 1024px) {
-  .accordion-item{
+@media screen and (min-device-width: 700px) and (max-device-width: 1025px) and (orientation : landscape)  {
+  .accordion-item {
     width: 100%;
   }
-  .accordion_home{
+
+  .accordion_home {
     width: 100%;
-  
-    
+
+
   }
-.accordion-header button{
-font-size: 15px;
-}
- 
-  .anuncio h1{
+
+  .accordion-header button {
+    font-size: 15px;
+  }
+
+  .anuncio h1 {
     font-size: 40px;
     font-weight: 600;
   }
-  .anuncio{
+
+  .anuncio {
     margin-top: -4rem;
   }
- 
-.footer_home{
-  padding-bottom: 2px;
-  padding-top: 5px;
 
-}
+  .footer_home {
+    padding-bottom: 2px;
+    padding-top: 100px;
 
-.form_home{
-  max-width: 450px;
-  margin: 0 auto;
-  font-weight: 400;
-  text-align: center;
-}
-.input_home{
-  display: inline !important;
-}
-.input_home input{
-  width: 100% !important;
-}
+  }
 
-.input_home button{
-  font-size: 0.925rem;
+  .anuncio-text p {
+    text-align: left;
+  }
+
+  .anuncio2-text {
+    position: relative;
+    top: -50vh;
+  }
+
+  .form_home {
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .input_home {
+    display: inline !important;
+  }
+
+  .input_home input {
+    width: 100% !important;
+  }
+
+  .input_home button {
+    font-size: 0.925rem;
     /* min-height: 60px; */
     text-transform: uppercase;
     background-color: #e50914;
     color: white;
     border-top-left-radius: 2;
     border-left: 1px solid #333;
-    width: 50%;    /* margin-top: 15px; */
+    width: 50%;
+    /* margin-top: 15px; */
     margin-left: 145px;
     justify-content: center;
     /* text-align: center; */
-     position: relative; 
+    position: relative;
     left: 120px;
     margin: 15px 0 0 0;
+  }
+
+  .form-select {
+    width: 25%;
+  }
+
+  .video_home_second {
+    width: 48%;
+    left: 50%;
+    top: 53%;
+  }
+
+  .anuncio-text {
+    text-align: center;
+    top: 0vh;
+  }
+
+
+
+  .video_home {
+    top: 61%;
+    width: 57%;
+    left: 50%;
+  }
+
+  .card-body p {
+    font-size: 1.25rem;
+  }
+
+  .imagen_mobil {
+    top: 170px;
+    left: 70px;
+  }
+
 }
 
-.form-select{
-  width: 25%;
-}
+@media only screen and (min-width:500px) and (max-width:699px) {
+  .accordion-item {
+    width: 100%;
+  }
 
-.video_home_second{
-  width: 48%;
-  left: 50%;
-  top: 53%;
-}
-.anuncio-text{
-  text-align: center;
-  top: 0vh;
-}
+  .accordion_home {
+    width: 100%;
 
 
+  }
 
-.video_home{
-  top: 61%;
-  width: 57%;
-  left: 50%;
+  .accordion-header button {
+    font-size: 15px;
+  }
+
+  .anuncio{
+    top: 30vh;
+  }
+
+  .anuncio h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+  .footer_home {
+    padding-bottom: 2px;
+    padding-top: 60px;
+
+  }
+
+  .anuncio-text p {
+    text-align: left;
+  }
+
+  .anuncio2-text {
+    position: relative;
+    top: -44vh;
+    text-align: center;
+  }
+
+
+  .form_home {
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .input_home {
+    display: inline !important;
+  }
+
+  .input_home input {
+    width: 100% !important;
+  }
+
+  .input_home button {
+    font-size: 0.925rem;
+    /* min-height: 60px; */
+    text-transform: uppercase;
+    background-color: #e50914;
+    color: white;
+    border-top-left-radius: 2;
+    border-left: 1px solid #333;
+    width: 50%;
+    /* margin-top: 15px; */
+    margin-left: 145px;
+    justify-content: center;
+    /* text-align: center; */
+    position: relative;
+    left: 120px;
+    margin: 15px 0 0 0;
+  }
+
+  .form-select {
+    width: 25%;
+  }
+
+  .video_home_second {
+    width: 48%;
+    left: 50%;
+    top: 53%;
+  }
+
+  .anuncio-text {
+    text-align: center;
+    top: 0vh;
+  }
+
+
+  .video_home {
+    top: 61%;
+    width: 57%;
+    left: 50%;
+  }
+
+  .card-body p {
+    font-size: 1.25rem;
+  }
+
+  .imagen_mobil {
+    top: 100px;
+    left: 70px;
+  }
+
+  .card-header h1 {
+    font-size: 25px !important;
+  }
+
+  .card-body button {
+    font-size: 0.85rem;
+  }
+
+  .form-select {
+    width: 35%;
+  }
+
 }
 
-.card-body p{
-  font-size: 1.25rem;
+@media only screen and (min-width:280px) and (max-width:480px){
+
+  .navbar-brand{
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+  margin-left: 1rem !important;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .btn_inicio{
+    margin-right: 0 !important;
+  }
+  .accordion-item {
+    width: 100%;
+  }
+
+  .accordion_home {
+    width: 100%;
+
+
+  }
+
+  .accordion-header button {
+    font-size: 15px;
+  }
+
+  .anuncio{
+    top: 7vh;
+  }
+
+  .anuncio h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+  .footer_home {
+    padding-bottom: 2px;
+    padding-top: 60px;
+
+  }
+
+  .anuncio-text p {
+    text-align: left;
+  }
+
+  .anuncio2-text {
+    position: relative;
+    top: -30vh;
+    text-align: center;
+  }
+
+
+  .form_home {
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .input_home {
+    display: inline !important;
+  }
+
+  .input_home input {
+    width: 100% !important;
+  }
+
+  .input_home button {
+    font-size: 0.925rem;
+    text-transform: uppercase;
+    background-color: #e50914;
+    color: white;
+    border-top-left-radius: 2;
+    border-left: 1px solid #333;
+    width: 50%;
+    margin-left: 145px;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+    margin: 15px 0 0 0;
+  }
+
+  .form-select {
+    width: 45%;
+  }
+
+  .video_home_second {
+    width: 48%;
+    left: 50%;
+    top: 58%;
+  }
+
+  .anuncio-text {
+    text-align: center;
+    top: 0vh;
+  }
+
+  .card-body p{
+    font-size: 1rem !important;
+  }
+
+  .video_home {
+    top: 66%;
+    width: 57%;
+    left: 50%;
+  }
+
+  .card-body p {
+    font-size: 1.25rem;
+  }
+
+  .imagen_mobil {
+    top: 120px;
+    left: 50px;
+  }
+
+  .card-header h1 {
+    font-size: 25px !important;
+  }
+
+  .card-body button {
+    font-size: 0.85rem;
+  }
+
+
+
+  .card-home{
+       top: 0 !important;
+  }
+
+  .input-group{
+    width: 100% !important;
+  }
 }
 
-}
+

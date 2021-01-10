@@ -1,4 +1,4 @@
-<?php?>
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="icon" type="image/ico" href="../public/img/favicon.ico" />
-    <link rel="stylesheet" href="../public/css/bootstrap.min.css?v=<?php echo(rand()); ?>">
-    <link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand()); ?>">
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css?v=<?php echo(rand());?>" />
+    <link rel="stylesheet" href="../public/css/estilos.css?v=<?php echo(rand());?>" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
@@ -75,10 +75,10 @@
         <div class=" row g-0 ">
             <div class="col-md-6">
 
-                <img class="imagen_mobil" src="../public/img/mobil.jpg" alt="...">
+                <img class="imagen_mobil" src="../public/img/mobil.png" alt="...">
             </div>
             <div class="col-md-6 ">
-                <div class="card-body anuncio-text">
+                <div class="card-body anuncio2-text container">
                     <h1 class="card-title">Descarga tus series para verlas offline.</h1>
                     <p class="card-text">Guarda tu contenido favorito y ten siempre algo para ver.</p>
 
@@ -292,4 +292,3 @@
 </body>
 
 </html>
-?>

@@ -322,3 +322,50 @@ font-size: 1rem;
 .card-body{
     padding: 0 !important;
 }
+
+@media only screen and (min-width:500px) and (max-width:700px) {
+header{
+    min-height: 175vh;
+}
+
+.footer_login{
+    top: 107vh;
+}
+
+.footer_align{
+      bottom: 0 !important;
+}
+
+.login-box{
+    width: 90% !important;
+}
+}
+
+@media only screen and (min-width:701px) and (max-width:1282px) {
+header{
+    min-height: 148vh !important;
+}
+
+}
+
+@media only screen and (min-width:280px) and (max-width:480px){
+    header{
+        min-height: 185vh;
+    }
+    
+    .footer_login{
+        top: 107vh;
+    }
+    
+    .footer_align{
+          bottom: 0 !important;
+    }
+    .login-box h1{
+        left: 0 !important;
+    }
+    
+    .login-box{
+        width: 90% !important;
+        top: 280px !important;
+    }
+}
